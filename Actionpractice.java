@@ -31,7 +31,7 @@ public class Actionpractice {
 		act.contextClick(rclick).perform();
 		
 		JavascriptExecutor js=(JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,900)");
+		js.executeScript("window.scrollBy(0,950)");
 		
 		WebElement mouse=driver.findElement(By.id("mousehover"));
 		act.moveToElement(mouse).perform();
