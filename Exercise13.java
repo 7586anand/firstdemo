@@ -25,7 +25,7 @@ public class Exercise13 {
 @Test
 void Charactersdupicate()
 {
-	 String str = "w3sch";
+	 String str = "Bengaluru";
 	  int cnt = 0;
 	  char[] inp = str.toCharArray();
 	  System.out.println("Duplicate Characters are:");
